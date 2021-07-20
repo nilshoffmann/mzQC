@@ -115,7 +115,7 @@ permalink: "/validator.html"
 					//output.textContent = JSON.stringify(mzqc);
 					if (mzqc) {
 						console.log("validating...")
-						$.post("http://45.88.80.81:5000/mzqc-validator", {validator_input: JSON.stringify(mzqc)}, 'json').done(function(response) {
+						$.post("https://45.88.80.81:5000/mzqc-validator", {validator_input: JSON.stringify(mzqc)}, 'json').done(function(response) {
 							//output.textContent = JSON.stringify(response);
 							$.each(response, function(k,v) {
   								appendAccordionElement(output, k,v)
