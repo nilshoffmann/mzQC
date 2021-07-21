@@ -1,4 +1,3 @@
-# Welcome to the mzQC Format Pages
 
 ## Specification document
 For more details see [the current version of the document](https://docs.google.com/document/d/132F3MBgDJgtFlXxDZhpJ1oHGbKL8pT6dk9fvL55L5_M/edit?usp=sharing).
