@@ -1,11 +1,16 @@
 # Site
 name: 'mzQC'
 description: 'mzQC website'
-remote_theme: jekyll/minima
+minima:
+  skin: dark
+#remote_theme: jekyll/minima
 header_pages:
   - _pages/about.md
   - _pages/validator.html
 
+author:
+  name: HUPO-PSI QC working group
+  email: "psidev-qc-dev@lists.sourceforge.net"
 
 # Exclude metadata and development time dependencies (like Grunt plugins)
 exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]
