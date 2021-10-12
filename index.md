@@ -7,5 +7,5 @@ Explore our [examples](https://github.com/HUPO-PSI/mzQC/tree/master/doc/examples
 
 ### News
 * News item 14.12.2020: mzQC entered internal review 
-* News item 14.07.2012: Our mzQC Format page went online
+* News item 14.07.2021: Our mzQC Format page went online
 
