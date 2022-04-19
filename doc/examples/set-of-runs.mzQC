@@ -72,9 +72,9 @@
         },
         "qualityMetrics": [
           {
-            "accession": "MS:4000060",
-            "name": "number of MS2 spectra",
-            "value": "250"
+            "accession": "MS:1003210"
+            "name": "average m/z deviation",
+            "value": "3.3"
           }
         ]
       },      
@@ -139,9 +139,9 @@
         },
         "qualityMetrics": [
           {
-            "accession": "MS:4000060",
-            "name": "number of MS2 spectra",
-            "value": "310"
+            "accession": "MS:1003210"
+            "name": "average m/z deviation",
+            "value": "4.5"
           }
         ]
       },
@@ -252,7 +252,7 @@
         "qualityMetrics": [
           {
             "accession": "MS:4000090",
-			      "name": "PCA of MaxQuant's protein group raw intensities",
+            "name": "PCA of MaxQuant's protein group raw intensities",
             "value": {
                 "MS:4000086":  ["healthy", "diseased"],
                 "MS:4000081": [47.22, -30.22],
@@ -271,6 +271,6 @@
         "uri": "https://github.com/HUPO-PSI/psi-ms-CV/releases/download/v4.1.84/psi-ms.obo",
         "version": "4.1.84"
       }
-    ]
+	]
   }
 }
