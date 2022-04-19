@@ -64,21 +64,20 @@
               "uri": "https://dx.doi.org/10.1021/pr201071t"
             },
             {
-              "accession": MS:1000799",
-              "name": "custom unreleased software tool"
+              "accession": "MS:1000799",
+              "name": "custom unreleased software tool",
               "value": "mzqc-pylib"
             }
           ]
         },
         "qualityMetrics": [
           {
-            "accession": "QC:4000270",
-            "name": "protein contaminant intensity ratio",
-            "value": "0.25"
+            "accession": "MS:4000060",
+            "name": "number of MS2 spectra",
+            "value": "250"
           }
         ]
-      },
-      
+      },      
       {
         "metadata": {
           "label": "diseased",
@@ -140,13 +139,12 @@
         },
         "qualityMetrics": [
           {
-            "accession": "QC:4000270",
-            "name": "protein contaminant intensity ratio",
-            "value": "0.31"
+            "accession": "MS:4000060",
+            "name": "number of MS2 spectra",
+            "value": "310"
           }
         ]
       },
-      
       {
         "metadata": {
           "label": "all",
@@ -253,39 +251,25 @@
         },
         "qualityMetrics": [
           {
-            "accession": "QC:4000264",
-            "name": "group of runs",
+            "accession": "MS:4000090",
+			      "name": "PCA of MaxQuant's protein group raw intensities",
             "value": {
-                "inputfile_name":  ["tr1_healthy", "tr2_healthy", "tr3_healthy"   , "tr1_diseased", "tr2_diseased", "tr3_diseased"],
-                "group-label":     ["healthy"    , "healthy"    , "healthy"       , "diseased"    , "diseased"    , "diseased"]
-            }
-          },
-          {
-            "accession": "QC:4000267",
-            "name": "PCA table",
-            "value": {
-                "group-label":  ["healthy", "diseased"],
-                "PCA Dimension 1": [47.22, -30.22],
-                "PCA Dimension 2": [29.1, -36.5],
-                "PCA Dimension 3": [3.8, -7.3],
-                "PCA Dimension 4": [-7.7, 5.55],
-                "PCA Dimension 5": [140.6, -64.1]
+                "MS:4000086":  ["healthy", "diseased"],
+                "MS:4000081": [47.22, -30.22],
+                "MS:4000082": [29.1, -36.5],
+                "MS:4000083": [3.8, -7.3],
+                "MS:4000084": [-7.7, 5.55],
+                "MS:4000085": [140.6, -64.1]
             }
           }
         ]
       }
-      
     ],
     "controlledVocabularies": [
       {
-        "name": "Proteomics Standards Initiative Quality Control Ontology",
-        "uri": "https://github.com/HUPO-PSI/mzQC/blob/main/cv/qc-cv.obo",
-        "version": "1.0.0"
-      },
-      {
         "name": "Proteomics Standards Initiative Mass Spectrometry Ontology",
-        "uri": "https://github.com/HUPO-PSI/psi-ms-CV/releases/download/v4.1.71/psi-ms.obo",
-        "version": "4.1.71"
+        "uri": "https://github.com/HUPO-PSI/psi-ms-CV/releases/download/v4.1.84/psi-ms.obo",
+        "version": "4.1.84"
       }
     ]
   }
